@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>伏特</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
+  <meta name="description" content="From Chengdu No.7 High School">
+<meta property="og:type" content="website">
+<meta property="og:title" content="伏特">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="伏特">
+<meta property="og:description" content="From Chengdu No.7 High School">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="伏特">
+<meta name="twitter:description" content="From Chengdu No.7 High School">
+  
+    <link rel="alternate" href="/atom.xml" title="伏特" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
+
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+  
+
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css" >
+  
+
+</head>
+
+
+
+  <body>
+
+
+  
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
+
+    
+      <div id="intrologo" class="intro-logo">
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+		 function redraw(){
+		 	var pattern = Trianglify({
+				width: window.innerWidth,
+				height: window.innerHeight
+			});
+            pattern.canvas(c)
+        }
+        document.getElementById("intrologo").onclick = redraw
+        document.getElementById("intrologo").ontouchstart = redraw
+		redraw()
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback"  style="border: 1px solid #404040;" >
+            <h1><a href="#content" id="logo">伏特</a></h1>
+            <h3>From Chengdu No.7 High School</h3>
+            <h5>Team-1387</h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
+  
+
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
+        } else {
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
+        }
+    </script>
+  
+
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">主页</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/archives">存档</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tags">标签</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">关于</a>
+        
+      </p>
+  </div>
+
+</header>
+  
+  <div id="container">
+    <div id="wrap">
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;">
+  
+    <article id="post-how-to"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/02/16/how-to/">成都七中 FTC 伏特队欢迎你！</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/02/16/how-to/" class="article-date">
+	  <time datetime="2018-02-16T13:11:37.611Z" itemprop="datePublished">2018-02-16</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/宣传/">宣传</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>又到了一年的招新时，希望同学们多多了解我们社团！</p>
+<p>想加入我们的同学一定很想了解一台机器是如何搭建出来的？</p>
+<p>首先是设计，如果你负责设计，你会学会CAD，学会建模。你也会学到机械结构方面的知识比如擒纵结构、棘轮、蜗轮结构这些听起来就很高大上的东西。</p>
+<p>之后，便是搭建了。机器人搭建有一个最大的梗就是电锯。这个初来看着很吓人，后来看着很可爱的东西，你们以后会用的愉快的。而什么螺刀扳手，各色螺丝垫圈轴承，从此不在话下。</p>
+<p>搭建的同时，也会开始编写程序。很开心，你能用上死循环。你也会学到闭环、PID等神奇的东西。还会对涉及电学的PWM，涉及光学的各种传感器有所了解。你会写一个个完成任务，辅助操作的自动程序。</p>
+<p>最后就是操作了。朋友你喜欢游戏吗？朋友你喜欢手柄吗？在鸡舍你能在上学期间光明正大的用 xbox 的手柄操作机器人。据这届的操作手说：打得好主机游戏的人，一定不会是一个差的操作手。</p>
+<p>机器搭建完了，我们还有好多成员还有更特别的工作，外联。外联——每一个社团都有的组织。机器人的外联，独特在于，主要是在国外比赛的时候，你可以勾搭到很多国外大佬和帅气的小姐姐们。嘿嘿，我们的外联其实主要负责联系其他队伍，进行技术沟通交流或者约个时间打打友谊赛，这些都是外联的工作。</p>
+<p>这就是一台机器的成型过程。这样下来，也分出了我们战队每个成员的工作。设计，搭建，编程，操作，外联。</p>
+<p>上面说了很多但他们只是机器人社最平凡的一部分，而机器人是一项团队活动。在这里，你会见到一个真正的团队，大家站在一起，为同一个目标倾尽全力。相互理解，彼此支持。我所在的队里，会有不同意见，但从未有争吵。在这样的团队里，哪怕你做错了，给大家带来了失败。也不会有人责备你，抱怨你，他们会笑笑，总结教训，下次再来。来机器人社吧，刚开始，你会收获一群队友，后来啊，你会收获一群朋友，走到最后，你会收获一群陪你笑陪你哭的傻逼们。最后，哪怕你从没有接触过任何机器人相关，哪怕你没有一点基础，哪怕你什么都不会，只要你有热情，只要你有兴趣，机器人社都欢迎你的到来。</p>
+<blockquote>
+<p>来机器人社吧，</p>
+<p>刚开始，你会收获一群队友；</p>
+<p>后来啊，你会收获一群朋友；</p>
+<p>走到最后，你会收获一群陪你笑陪你哭的傻逼们，那是最真挚的友谊。</p>
+<p>无论你是谁</p>
+<p>哪怕零基础，零经验，</p>
+<p>只要你有热情，我们等你来!</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/宣传/">宣传</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-story-of-volt"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/02/05/story-of-volt/">伏特队名由来</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/02/05/story-of-volt/" class="article-date">
+	  <time datetime="2018-02-05T09:13:01.000Z" itemprop="datePublished">2018-02-05</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/简介/">简介</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>作者：吴峻宜（2017-18赛季 FTC 1387伏特队队长）</p>
+<hr>
+<p>早在2017年，张老就叫我们想队名。</p>
+<p>当时的我们，脑子里蹦出了很多骚想法，因为高一嘛，学到了集合，所以李亦非大叫道：“我们用「左闭右开增区间」”吧！刚好七个字！”我们想了想，觉得头头是道啊，便告诉张老，张老愣了一下，没有表态，但看起来不支持，他接下来便给我们列举了许多前辈的队名，比如啊「宫保鸡丁」「银杏之光」「活化石」等队名，我们觉得都不好，接着便是去年的「伏特」和「坎德拉」了，都是以人名，物理计量单位来的，我们便往那个方向想，接着「阿伏伽德罗」「亚里士多德」之类的诸多骚名字便蹦了出来，紧接，便是大笑，气氛轻松愉悦。便不了了之。</p>
+<p>到了今年，2018年的时候，必须要分队，定队名了，就又重新想这个恼人的问题。</p>
+<p>两个小时之后……情景便是这样了，每每一个人想出来一个队名，另外的人就立马否决，往复循环。知道张老打破了这个循环：“你们要不要考虑还是用。”他看了看我们，“用去年的队名？”接着又给我们看了一张表格。</p>
+<p>是一张去年积分的表格，伏特队和坎德拉队稳居积分榜的一二名，我们心中油然而生出一种强烈的自豪感，这种感觉，真的超赞！我们立马就同意用去年的“伏特”与“坎德拉”。也是一种传承吧。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伏特的故事/">伏特的故事</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-team-members"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/02/05/team-members/">创建与发展历史</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/02/05/team-members/" class="article-date">
+	  <time datetime="2018-02-05T00:13:02.000Z" itemprop="datePublished">2018-02-05</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/简介/">简介</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>作者：吴峻宜（2017-18赛季 FTC 1387伏特队队长）</p>
+<hr>
+<h2 id="我们的荣誉"><a href="#我们的荣誉" class="headerlink" title="我们的荣誉"></a>我们的荣誉</h2><h3 id="团队荣誉"><a href="#团队荣誉" class="headerlink" title="团队荣誉"></a>团队荣誉</h3><ol>
+<li>2016年3月20日，在清华大学举行的2016 FTC机器人科技挑战赛分站赛上，成都七中林荫校区七蝎队三等奖。</li>
+<li>2016年4月9日，在重庆大学举行的2016 FTC机器人科技挑战赛分站赛上，成都七中林荫校区七蝎队获得单项奖控制奖。</li>
+<li>2016年6月3日-5日，FIRST中国组委会在上海科技馆举办2016 FIRST中国公开赛暨国际邀请赛。来自中国、美国、俄罗斯等国家的53支队伍参加了FTC（FIRST科技挑战赛）“救援团”主题竞赛，七蝎队（7-Scorpion 1211）获得全国一等奖，其中2名同学获得澳大利亚麦考瑞大学招生资格和奖学金。</li>
+<li>2017年3月10日，在北京清华大学举行的FIRST机器人科技挑战赛上，我校伏特队（1387）获得三等奖。</li>
+<li>2017年4月23日，在上海同济大学举行的FIRST机器人科技挑战赛上，我校伏特队（1387）参赛，以初赛第一名的成绩晋级复赛，最终获得亚军联盟队长。</li>
+<li>2017年5月7日，在西安电子科技大学举行的FIRST机器人科技挑战赛上，我校以初赛第一名的成绩进入复赛，伏特队（1387）获得联盟亚军。</li>
+<li>2017年5月14日，在重庆大学举行的FIRST机器人科技挑战赛上，伏特队（1387）获得联盟队长、最高单项奖思索奖。参赛队员将获得大学自招优先的机会。</li>
+<li>2016-2017赛季，伏特队与坎德拉队分别获得该赛季总积分榜第一第二名。</li>
+</ol>
+<h3 id="个人荣誉"><a href="#个人荣誉" class="headerlink" title="个人荣誉"></a>个人荣誉</h3><ol>
+<li>2008年成都七中 Vex 世锦赛冠军队队员达兴烨同学，2009年考上上海交通大学，现在普渡大学攻读机器人专业博士学位。</li>
+<li>2013年连续参加了两届机器人竞赛的耿昕暘同学被美国加州美国加州大学伯克利分校录取。</li>
+<li>2014年，成都七中机器人战队队长罗云鹏同学被清华大学自动化系录取。</li>
+</ol>
+<h2 id="我们的队员"><a href="#我们的队员" class="headerlink" title="我们的队员"></a>我们的队员</h2><h3 id="李亦非"><a href="#李亦非" class="headerlink" title="李亦非"></a>李亦非</h3><p>​    一个技术控，精通于结构与搭建，电脑掌握技术十分高超，当然这也包括电脑上的各种游戏，比如坦克世界、吃鸡、特别是MC，红石大佬一枚。在我的世界中做出了各种骚操作，包括各种骚想法，骚炮。也是看得我眼花缭乱。负责结构与搭建，与LOGO的设计和制作海报，也是付出了极大的心思，虽然骚，做的还是强得一批，学习中也是巨擘，大佬，强者。</p>
+<h3 id="谭芮"><a href="#谭芮" class="headerlink" title="谭芮"></a>谭芮</h3><p>鄙人今年就16了（咳咳，可能还有点久），学习能力也就也就一般般，到了鸡舍，也就比较吃亏，学习一个东西时间比较久，特别是记的东西，老夫就彻底凉了。还好有各位大佬的帮助，老夫现在也能做一些比较简单的事了。后来老夫也非常不幸，被选上当操作手，老夫也因此烙下了“左右脑需要开发的名号”。总之，智商低没问题。只要功夫深，铁棒磨成针！</p>
+<h3 id="丁冉"><a href="#丁冉" class="headerlink" title="丁冉"></a>丁冉</h3><p><strong>Q</strong>：今年几岁了？</p>
+<p><strong>A</strong>：16…比学姐还大了一个月的我…</p>
+<p><strong>Q</strong>：为什么来鸡舍？</p>
+<p><strong>A</strong>：我能说被骗来的吗…</p>
+<p><strong>Q</strong>：为什么选程序？</p>
+<p><strong>A</strong>：因为这个“职业”看起来很酷…</p>
+<p><strong>Q</strong>：对鸡舍的印象?</p>
+<p><strong>A</strong>：大家都是大佬，我一个渣渣…</p>
+<p><strong>Q</strong>：鸡舍对你的影响？</p>
+<p><strong>A</strong>：更懂得了团队协作。</p>
+<p><strong>Q</strong>：以后会选择有关机器人的专业吗？</p>
+<p><strong>A</strong>：看情况吧，但会优先考虑吧。</p>
+<h3 id="张洁茜"><a href="#张洁茜" class="headerlink" title="张洁茜"></a>张洁茜</h3><p><strong>Q</strong>：多少岁？</p>
+<p><strong>A</strong>：15</p>
+<p><strong>Q</strong>：为什么进机社？</p>
+<p><strong>A</strong>：我能说是个偶然吗，机社的招新海报是吸引我入坑的主要原因。</p>
+<p><strong>Q</strong>：为什么选择负责程序？</p>
+<p><strong>A</strong>：嗯……学了一点C++，结果发现机器人的程序是 Java（微笑脸）。</p>
+<p><strong>Q</strong>：想从事和机器人相关的职业吗？</p>
+<p><strong>A</strong>：只能说会考虑的。</p>
+<p><strong>Q</strong>：在机社最大的收获是什么？</p>
+<p><strong>A</strong>：极大的锻炼了我的自学的能力吧。</p>
+<p><strong>Q</strong>：打个比方？**</p>
+<p><strong>A</strong>：就说学程序吧，就看学姐留给我们程序员的资料，主要是自己看，不懂的问题问。。。</p>
+<p><strong>Q</strong>：机社留给你的印象？</p>
+<p><strong>A</strong>：大佬云集，就是个很 Geek的社团。自己不努力学习各种东西都愧对自己来到这么好的社团啊。</p>
+<h3 id="吴峻宜"><a href="#吴峻宜" class="headerlink" title="吴峻宜"></a>吴峻宜</h3><p>作为高二学长，已经参加过一年FTC的比赛，已经感受过了机器人比赛的险恶，于是今年又来了。今年还是留在了伏特，还是1387，只是今年参赛抱着不一样的心情来参赛，因为我的第一愿望就只有希望机器不断连，然后有大佬能给我们队大腿来抱。</p>
+<h3 id="张皓文"><a href="#张皓文" class="headerlink" title="张皓文"></a>张皓文</h3><p>刚开始来到机社，是想练一下自己的动手能力，还有就是本来在设计与机械方面就比较好，就被机社吸引，来到了这里，但是来到这里以后吧，也有一些与自己想象中的机社不一样的地方。在开始不久，被一个奇怪、匪夷所思的理由被选为做工程笔记，但想想也后悔，因为懒，开始没学 InDesign，工笔做得并不好。但是祸不单行，在一个劣势之后，困难接踵而来。一就是队员不怎么配合，队长也不怎么重视工程笔记，更大的一个因素就是我是操作手！后期的时候，天天就在练操作了，更没有时间做工笔…再看看坎德拉吧，两个人专心做工笔，有一个高二经验丰富的老队员，狂做，还有一个“技术指导”，哇绝望。操作也不理想，还是很慢，有什么办法?练。但确实也尽了全力了，无憾。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伏特的故事/">伏特的故事</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+    <article id="post-introduction"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2018/01/16/introduction/">我们来自成都七中机器人爱好者协会</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2018/01/16/introduction/" class="article-date">
+	  <time datetime="2018-01-16T12:49:57.000Z" itemprop="datePublished">2018-01-16</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/简介/">简介</a>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="成都七中机器人爱好者协会"><a href="#成都七中机器人爱好者协会" class="headerlink" title="成都七中机器人爱好者协会"></a>成都七中机器人爱好者协会</h1><p>作者：吴峻宜（2017-18赛季 FTC 1387伏特队队长）；彭思远（成都七中 FTC 伏特队退役成员）</p>
+<hr>
+<p>成都七中机器人爱好者协会成立于2007年，是成都七中为学生机器人爱好者搭建的，旨在提高学生创新能力、动手能力和组织能力的学习交流平台。</p>
+<h2 id="我们是一个集动手能力与团队合作的协会"><a href="#我们是一个集动手能力与团队合作的协会" class="headerlink" title="我们是一个集动手能力与团队合作的协会"></a>我们是一个集动手能力与团队合作的协会</h2><p>机器人爱好者协会亦被许多学生成为机社，饱含着学生对机器人协会的深厚感情。参与到这个协会的学生除了有相应的机器人专业知识，更在这个协会中锻炼了自己的团队精神、自我管理和组织管理能力。我们作为七中获奖最多的协会，我们主要参加「Vex」和「FTC」两个项目，与全国各地的学校同台竞技，也经常代表中国登上世锦赛的舞台。我们通过自己时间的付出和日以继夜的努力，逐渐成为了其他学校眼中的大腿和大佬。这些成绩不仅是对我们的肯定，同时也是我们辛勤付出的结果，有投入才能有收获！</p>
+<h2 id="我们是成都七中最自由的社团"><a href="#我们是成都七中最自由的社团" class="headerlink" title="我们是成都七中最自由的社团"></a>我们是成都七中最自由的社团</h2><p>我们有最大的活动教室、最轻松和睦的成员关系、最先进的创新理念、最齐全的设备和工具。这样的条件也让我们有能力在全国的舞台上绽放自我。目前成都七中机器人爱好者协会总共有两个机器人竞赛项目，一个是 Vex，另一个则是 FTC（FIRST Tech Challenge） 机器人科技挑战赛。FTC 是由美国FIRST非盈利性机构主办的针对14-18岁高中生的国际性机器人比赛。现今每年约 250,000名高中生参加。FIRST可设计性强、创造性强，基于遥控操作，给学生提供了一个平台，把课堂上的科技概念运用到现实工程师问题解决中 。学生面对无尽挑战，创造特有的解决方案，同时培养团队合作、演讲技能、商业意识。值得一体的是，成都七中机器人爱好者协会的成员除了在机器人竞赛中取得佳绩，学生凭借自己培养出的强大的自我管理能力和学习能力在文化学习上亦保持着优异的成绩。总之，在艰苦的条件和环境中，成都七中机社成员披荆斩棘，自力更生，大胆发挥想象力，在学校的政策大力支持和技术支持和资金支持下，吸取各种优秀的先进的技术资源丰富自我，凭借其艰苦卓绝的奋斗精神在世界机器人竞赛舞台上展露出光芒。</p>
+<h2 id="我们有历史悠久经验丰富的战队"><a href="#我们有历史悠久经验丰富的战队" class="headerlink" title="我们有历史悠久经验丰富的战队"></a>我们有历史悠久经验丰富的战队</h2><p>成都七中机器人爱好者协会成立于2007年，协会社团平时在团队合作中设计搭建机器，然后参加世界各地的各项机器人比赛。而之后，我们也多次在中国的激烈比赛中，杀出重围，得到了去世锦赛的资格。2012年，FTC世锦赛上我们拿到了迄今为止，FTC队伍在世锦赛的最好成绩：20强。2013年，我们 FTC 战队获得了全国最高奖启迪奖和冠军队长。2017年，我们的两只 FTC 队伍 「Volt」「Candela」赛季积分分列全国第一第二，在2017年 VEX世锦赛上，我们获得了表彰在结构和程序上都表现出色的最高技术奖评审奖。我们获得的其他奖项，太多太多，无法一一说清。这都是我们辛勤付出的成果。这些年来不断发展，我们机社的战队已经有丰富的经验与悠久的历史，希望接下来我们不断进步，超越自我！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伏特的故事/">伏特的故事</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+  
+
+
+</section>
+        
+      </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://sn0wbar.top" target="_blank">Siyuan Peng</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2017 - 2018 伏特 All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				访客数 : <span id="busuanzi_value_site_uv"></span> |  
+				访问量 : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">主页</a>
+  
+    <a href="/archives" class="mobile-nav-link">存档</a>
+  
+    <a href="/tags" class="mobile-nav-link">标签</a>
+  
+    <a href="/about" class="mobile-nav-link">关于</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+  <script src="/js/home.js"></script>
+
+
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            伏特
+          </div>
+          <div class="panel-body">
+            Copyright © 2018 Team-1387 All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+</body>
+</html>
